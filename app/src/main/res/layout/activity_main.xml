@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/main"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="211dp"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="229dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/newlif" />
+
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="288dp"
+        android:layout_height="320dp"
+        android:layout_gravity="center"
+        android:background="@color/trasoo"
+        android:text="@string/welcome"
+        android:textAlignment="center"
+        android:textSize="20dp"
+        android:textStyle="normal" />
+
+    <ImageButton
+        android:id="@+id/startBTN"
+        android:layout_width="364dp"
+        android:layout_height="45dp"
+        android:layout_gravity="center"
+        android:background="@drawable/custom_button"
+        android:scaleType="centerCrop"
+        android:src="@drawable/strta3" />
+
+
+</LinearLayout>
