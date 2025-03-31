@@ -6,4 +6,7 @@
     <color name="lightblue">#8282FF</color>
     <color name="purple">#411885</color>
     <color name="trasoo">#08D1B4FF</color>
+    <color name="popout">#1c0464</color>
+    <color name="cryout">#7456CE</color>
+    <color name="cleartroug">#20FFFFFF</color>
 </resources>

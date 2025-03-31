@@ -31,7 +31,7 @@ ImageView log,img;
                 startActivity(intent);
 
             }
-        },3500);
+        },1500);
 
 
     }
