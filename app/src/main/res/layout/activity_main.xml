@@ -25,7 +25,7 @@
         android:layout_width="288dp"
         android:layout_height="320dp"
         android:layout_gravity="center"
-        android:background="@color/trasoo"
+        android:background="@drawable/edittextcolo"
         android:text="@string/welcome"
         android:textAlignment="center"
         android:textSize="20dp"
