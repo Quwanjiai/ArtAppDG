@@ -9,4 +9,6 @@
     <color name="popout">#1c0464</color>
     <color name="cryout">#7456CE</color>
     <color name="cleartroug">#20FFFFFF</color>
+    <color name="pop">#C9AB93FF</color>
+    <color name="dup">#27397A</color>
 </resources>
