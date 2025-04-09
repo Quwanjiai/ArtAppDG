@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "755092928090",
+    "firebase_url": "https://artfrbdem-default-rtdb.firebaseio.com",
+    "project_id": "artfrbdem",
+    "storage_bucket": "artfrbdem.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:755092928090:android:842034144227e1932c4a63",
+        "android_client_info": {
+          "package_name": "org.baltimorecityschools.artapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAg9vOwNO9Wrx_VNNPFx24VkCA40MnoKuY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

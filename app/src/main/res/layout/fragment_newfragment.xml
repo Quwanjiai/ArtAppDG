@@ -5,7 +5,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/gradient_background"
+    android:background="@drawable/viewpager_bkf"
     android:orientation="vertical"
     tools:context=".newfragment">
 
@@ -16,29 +16,25 @@
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="708dp"
             android:layout_marginTop="20dp"
             android:orientation="vertical"
             android:padding="20dp">
 
-            <ImageView
-                android:layout_width="368dp"
-                android:layout_height="200dp"
-                android:src="@drawable/signuplo" />
-
             <EditText
                 android:id="@+id/signupEmail"
-                android:layout_width="306dp"
+                android:layout_width="229dp"
                 android:layout_height="60dp"
                 android:layout_gravity="center"
                 android:layout_marginTop="30dp"
                 android:background="@drawable/edittextcolo"
+                android:gravity=""
                 android:hint="Email"
                 android:padding="8dp" />
 
             <EditText
                 android:id="@+id/signup_password"
-                android:layout_width="311dp"
+                android:layout_width="229dp"
                 android:layout_height="60dp"
                 android:layout_gravity="center"
                 android:layout_marginTop="20dp"
@@ -49,7 +45,7 @@
 
             <EditText
                 android:id="@+id/signup_confirmPW"
-                android:layout_width="313dp"
+                android:layout_width="229dp"
                 android:layout_height="60dp"
                 android:layout_gravity="center"
                 android:layout_marginTop="20dp"
@@ -60,12 +56,12 @@
 
             <Button
                 android:id="@+id/signup_button"
-                android:layout_width="300dp"
-                android:layout_height="70dp"
+                android:layout_width="230dp"
+                android:layout_height="61dp"
                 android:layout_gravity="center"
                 android:layout_marginTop="30dp"
-                android:text="Signup"
                 android:background="@drawable/edittextcolo"
+                android:text="Signup"
                 android:textSize="18sp"
                 app:cornerRadius="30dp" />
 
