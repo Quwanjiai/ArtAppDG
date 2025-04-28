@@ -12,4 +12,5 @@
     <color name="cleartroug">#20FFFFFF</color>
     <color name="pop">#C9AB93FF</color>
     <color name="dup">#27397A</color>
+    <color name="transp">#00FFFFFF</color>
 </resources>

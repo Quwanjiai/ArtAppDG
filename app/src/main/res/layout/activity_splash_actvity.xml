@@ -16,11 +16,11 @@
         android:src="@drawable/img"></ImageView>
 
     <ImageView
-        android:id="@+id/log"
-        android:layout_width="350dp"
-        android:layout_height="350dp"
-        android:layout_centerInParent="true"
-        android:scaleType="centerCrop"
-        android:src="@drawable/artlago"></ImageView>
+    android:id="@+id/log"
+    android:layout_width="350dp"
+    android:layout_height="350dp"
+    android:layout_centerInParent="true"
+    android:scaleType="centerCrop"
+    android:src="@drawable/artlago"></ImageView>
 
 </RelativeLayout>

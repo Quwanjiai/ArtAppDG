@@ -1,6 +1,11 @@
 <resources>
     <string name="app_name">ArtApp</string>
     <string name="welcome">Struggling with art block? Lacking motivation to create? Artspire is here to help! Our app is designed for artists who feel stuck, uninspired, or overwhelmed by creative challenges. Whether you’re a beginner or a seasoned artist, Artspire provides prompts, exercises, and motivational techniques to reignite your passion for drawing and creativity. </string>
-    <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="textPo">CLick this Button and see how creative you can be by choosing from these 3 prompts.</string>
+    <string name="home">Home</string>
+    <string name="infom">ArtApp is a platform designed for artists at any level of experience to discover, and create. Its user-friendly interface and aesthetic allow the users to seamlessly sign up, log in, and access the wonders of ArtApp</string>
+    <string name="settings">setiing</string>
+    <string name="profile">profile</string>
+    <string name="INfo">info</string>
 </resources>
