@@ -1,5 +1,6 @@
 package org.baltimorecityschools.artapp;
 
+import android.annotation.SuppressLint;
 import android.content.Intent;
 import android.os.Bundle;
 
@@ -20,6 +21,8 @@ public class HomeSFragment extends Fragment {
 
     Button imageBTN;
 
+    Button sKetBTN;
+
     Button textGCBTN;
 
     private String[] motivationalQuotes = {
@@ -34,6 +37,7 @@ public class HomeSFragment extends Fragment {
 
     private Random random = new Random();
 
+    @SuppressLint("MissingInflatedId")
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
@@ -42,6 +46,8 @@ public class HomeSFragment extends Fragment {
 
         imageBTN = view.findViewById(R.id.imageZone);
         textGCBTN = view.findViewById(R.id.genideaBT);
+        sKetBTN = view.findViewById(R.id.setckky);
+
 
         quoteTextView2 = view.findViewById(R.id.quoteTextView2);
         newQuoteButton = view.findViewById(R.id.newQuoteButton);
@@ -62,6 +68,8 @@ public class HomeSFragment extends Fragment {
             }
         });
 
+
+
         newQuoteButton.setOnClickListener(v -> {
             int index = random.nextInt(motivationalQuotes.length);
             quoteTextView2.setText(motivationalQuotes[index]);
@@ -70,5 +78,15 @@ public class HomeSFragment extends Fragment {
         return view;
 
     }
+
+    @Override
+    public void onResume() {
+        super.onResume();
+        HomeActivity2 activity = (HomeActivity2) getActivity();
+        if (activity != null && activity.fab != null) {
+            activity.fab.setVisibility(View.VISIBLE); // Show FAB again
+        }
+    }
+
 
 }

@@ -15,11 +15,15 @@ import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentManager;
 import androidx.fragment.app.FragmentTransaction;
 
+import com.google.android.material.floatingactionbutton.FloatingActionButton;
+
 import org.baltimorecityschools.artapp.databinding.ActivityHome2Binding;
 
 public class HomeActivity2 extends AppCompatActivity {
 
     ActivityHome2Binding binding;
+
+    public FloatingActionButton fab; // <-- Make this public
     
     
     @Override
@@ -27,6 +31,8 @@ public class HomeActivity2 extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         binding =ActivityHome2Binding.inflate(getLayoutInflater());
         setContentView(binding.getRoot());
+
+        fab = findViewById(id.floatingActionButtonbb);
 
 
         replaceFragment(new HomeSFragment());

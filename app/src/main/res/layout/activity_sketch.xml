@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp">
+
+        <EditText
+            android:id="@+id/motivationInput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Write your motivation here"
+            android:background="@android:drawable/editbox_background"
+            android:padding="12dp" />
+
+        <Button
+            android:id="@+id/saveMotivationButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Save Motivation"
+            android:layout_marginTop="8dp" />
+
+        <TextView
+            android:id="@+id/customMotivationText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Your motivation will appear here"
+            android:textSize="18sp"
+            android:textColor="#000"
+            android:layout_marginTop="12dp"
+            android:visibility="gone" />
+
+        <Button
+            android:id="@+id/uploadImageButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Upload Image"
+            android:layout_marginTop="24dp" />
+
+        <ImageView
+            android:id="@+id/uploadedImageView"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_marginTop="8dp"
+            android:scaleType="fitCenter"
+            android:visibility="gone" />
+    </LinearLayout>
+</ScrollView>

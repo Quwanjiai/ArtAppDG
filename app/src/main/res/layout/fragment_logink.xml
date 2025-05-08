@@ -27,7 +27,7 @@
                 android:layout_gravity="center"
                 android:layout_marginTop="30dp"
                 android:background="@drawable/edittextcolo"
-                android:hint="Email"
+                android:hint="Username"
                 android:padding="8dp" />
 
             <EditText
@@ -51,6 +51,16 @@
                 android:text="Login"
                 android:textSize="18sp"
                 app:cornerRadius="30dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="33dp"
+                android:id="@+id/signRedirectText"
+                android:text="Dont have an account? signUp Here."
+                android:textAlignment="center"
+                android:textSize="19dp"
+                android:textColor="@color/cryout" />
+
         </LinearLayout>
     </LinearLayout>
 </LinearLayout>

@@ -12,6 +12,7 @@ public class VwPages extends FragmentStateAdapter {
     }
 
     @NonNull
+
     @Override
     public Fragment createFragment(int position) {
         if (position == 1) {

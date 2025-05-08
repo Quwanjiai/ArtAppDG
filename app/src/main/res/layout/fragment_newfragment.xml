@@ -11,20 +11,43 @@
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="match_parent"
         android:orientation="vertical">
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="708dp"
+            android:layout_height="711dp"
             android:layout_marginTop="20dp"
             android:orientation="vertical"
             android:padding="20dp">
 
+
+            <TextView
+                android:id="@+id/signupnamett"
+                android:layout_width="296dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="SignUp"
+                android:textAlignment="center"
+                android:textColor="@color/pop"
+                android:textSize="26dp" />
+
+
+            <EditText
+                android:id="@+id/signup_username"
+                android:layout_width="229dp"
+                android:layout_height="54dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/edittextcolo"
+                android:gravity=""
+                android:hint="Username"
+                android:padding="8dp" />
+
             <EditText
                 android:id="@+id/signupEmail"
                 android:layout_width="229dp"
-                android:layout_height="60dp"
+                android:layout_height="53dp"
                 android:layout_gravity="center"
                 android:layout_marginTop="30dp"
                 android:background="@drawable/edittextcolo"
@@ -35,7 +58,7 @@
             <EditText
                 android:id="@+id/signup_password"
                 android:layout_width="229dp"
-                android:layout_height="60dp"
+                android:layout_height="54dp"
                 android:layout_gravity="center"
                 android:layout_marginTop="20dp"
                 android:background="@drawable/edittextcolo"
@@ -46,7 +69,7 @@
             <EditText
                 android:id="@+id/signup_confirmPW"
                 android:layout_width="229dp"
-                android:layout_height="60dp"
+                android:layout_height="54dp"
                 android:layout_gravity="center"
                 android:layout_marginTop="20dp"
                 android:background="@drawable/edittextcolo"
@@ -56,11 +79,12 @@
 
             <Button
                 android:id="@+id/signup_button"
-                android:layout_width="230dp"
-                android:layout_height="61dp"
+                android:layout_width="226dp"
+                android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:layout_marginTop="30dp"
                 android:background="@drawable/edittextcolo"
+                android:gravity="center"
                 android:text="Signup"
                 android:textSize="18sp"
                 app:cornerRadius="30dp" />

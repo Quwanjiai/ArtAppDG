@@ -62,6 +62,20 @@ public class profileeFragment extends Fragment {
             }
         });
 
+
+
+
         return view;
     }
+
+    @Override
+    public void onResume() {
+        super.onResume();
+        HomeActivity2 activity = (HomeActivity2) getActivity();
+        if (activity != null && activity.fab != null) {
+            activity.fab.setVisibility(View.GONE); // Hide FAB
+        }
+    }
+
+
 }
